@@ -45,13 +45,13 @@ GraphicsMagick and ImageMagick are two highly acclaimed tools for manipulating v
  17. MARKED:
 Markdown is a minified, more elegant, version of HTML. Markdown lets you convert text to HTML by using specific markdown syntaxes and tags. While HTML focuses on making everything appealing to the web, Markdown on the other hand wants to put the focus on text, specifically on the way text is presented, and how to best help online editors to output beautiful text, with less trouble and learning of HTML. The Marked Node.js library will implement Markdown in any project, app or website that you’re working on.
 
- 18.RESTIFY:
+  18.RESTIFY:
 APIs remain as one of the most important parts of any Node.js application, it’s what makes the real-time actually become real. If you are looking to build a RESTful API, then Restify library will give you the quirks and tools required to perform the task. In more ways than one; Restify is the library you will want to use when building REST services for the web. It’s simply that good.
 
- 19.WebPack:
+  19.WebPack:
 WebPack lets you use dozens of modules in your project, without having to worry about their locations and overall performance. WebPack, as the name suggest, packs all your modules in separate JS, CSS, and HTML files and gives you back an easy workspace for the browser. You can split, bundle and allocate code as you like thanks to WebPack.
 
- 20. NPM UPPERCASE:
+  20. NPM UPPERCASE:
 Once the package is installed, it is ready to use.
 Include the "upper-case" package the same way you include any other module:
 var uc = require('upper-case');
