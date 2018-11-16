@@ -9,14 +9,24 @@ This makes Node.js highly scalable, as it can process a high number of requests 
 
 EXAMPLE:
 
-function readJSON(filename, callback){
-  fs.readFile(filename, 'utf8', function (err, res){
-    if (err) return callback(err);
-    try {
-      res = JSON.parse(res);
-    } catch (ex) {
-      return callback(ex);
+console.log("user1 made a request");
+    setTimeout(callback,5000);
+    console.log("user2 made a request");
+    setTimeout(callback,5000);
+    console.log("user3 made a request");
+    setTimeout(callback,5000);
+
+    function callback()
+    {
+        console.log("users request fullfilled");
     }
-    callback(null, res);
-  });
-}
+
+OUTPUT:
+
+PS C:\Users\Rajeshwary\Desktop\my-dream-app\e2e> node merge.js
+user1 made a request
+user2 made a request
+user3 made a request
+users request fullfilled
+users request fullfilled
+users request fullfilled
